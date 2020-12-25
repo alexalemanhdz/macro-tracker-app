@@ -36,9 +36,15 @@ class _MyHomePageState extends State<MyHomePage> {
           title: Text(widget.title),
           bottom: TabBar(
             tabs: [
-              Tab(icon: Icon(Icons.directions_car)),
-              Tab(icon: Icon(Icons.directions_transit)),
-              Tab(icon: Icon(Icons.directions_bike)),
+              Tab(
+                text: 'Add Meal',
+                ),
+              Tab(
+                text: 'Add Food',
+                ),
+              Tab(
+                text: 'Stats',
+                ),
             ],
           )
         )
